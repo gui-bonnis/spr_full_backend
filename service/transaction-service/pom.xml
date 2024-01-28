@@ -5,15 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.fin.budget.tracking</groupId>
-        <artifactId>tracking</artifactId>
+        <artifactId>service</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>service</artifactId>
+    <artifactId>transaction-service</artifactId>
     <packaging>pom</packaging>
-
     <modules>
-        <module>transaction-service</module>
+        <module>transaction-application</module>
+        <module>transaction-container</module>
+        <module>transaction-dataaccess</module>
+        <module>transaction-messaging</module>
+        <module>transaction-domain</module>
     </modules>
+
 
 </project>

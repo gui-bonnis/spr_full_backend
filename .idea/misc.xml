@@ -5,7 +5,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service/customer-service/customer-domain/customer-domain-application/pom.xml" />
+        <option value="$PROJECT_DIR$/service/transaction-service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/service/customer-service/customer-application/pom.xml" />
+        <option value="$PROJECT_DIR$/service/customer-service/customer-container/pom.xml" />
+        <option value="$PROJECT_DIR$/service/customer-service/customer-dataaccess/pom.xml" />
+        <option value="$PROJECT_DIR$/service/customer-service/customer-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/service/customer-service/customer-messaging/pom.xml" />
+        <option value="$PROJECT_DIR$/service/customer-service/pom.xml" />
+      </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>

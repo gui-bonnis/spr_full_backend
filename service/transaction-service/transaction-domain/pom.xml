@@ -5,15 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.fin.budget.tracking</groupId>
-        <artifactId>tracking</artifactId>
+        <artifactId>transaction-service</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>service</artifactId>
+    <artifactId>transaction-domain</artifactId>
     <packaging>pom</packaging>
-
     <modules>
-        <module>transaction-service</module>
+        <module>transaction-domain-core</module>
+        <module>transaction-domain-application</module>
     </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
 </project>

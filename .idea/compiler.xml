@@ -6,14 +6,55 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="transaction-domain-core" />
+        <module name="infra" />
+        <module name="tools" />
+        <module name="transaction-container" />
+        <module name="transaction-dataaccess" />
+        <module name="transaction-application" />
         <module name="common" />
+        <module name="z" />
+        <module name="present" />
+        <module name="transaction-messaging" />
+        <module name="transaction-domain-application" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="customer-application" target="17" />
+      <module name="customer-container" target="17" />
+      <module name="customer-dataaccess" target="17" />
+      <module name="customer-domain" target="1.5" />
+      <module name="customer-domain-application" target="1.5" />
+      <module name="customer-domain-core" target="17" />
+      <module name="customer-messaging" target="1.5" />
+      <module name="customer-service" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
+      <module name="customer-application" options="" />
+      <module name="customer-container" options="" />
+      <module name="customer-dataaccess" options="" />
+      <module name="customer-domain" options="" />
+      <module name="customer-domain-application" options="" />
+      <module name="customer-domain-core" options="-parameters" />
+      <module name="customer-messaging" options="" />
+      <module name="customer-service" options="-parameters" />
       <module name="fin.budget.tracking" options="-parameters" />
+      <module name="infra" options="-parameters" />
+      <module name="present" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="tools" options="-parameters" />
+      <module name="transaction-application" options="-parameters" />
+      <module name="transaction-container" options="-parameters" />
+      <module name="transaction-dataaccess" options="-parameters" />
+      <module name="transaction-domain" options="-parameters" />
+      <module name="transaction-domain-application" options="-parameters" />
+      <module name="transaction-domain-core" options="-parameters" />
+      <module name="transaction-messaging" options="-parameters" />
+      <module name="transaction-service" options="-parameters" />
+      <module name="z" options="-parameters" />
     </option>
   </component>
 </project>

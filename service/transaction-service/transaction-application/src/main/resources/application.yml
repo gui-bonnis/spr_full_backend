@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+spring:
+  r2dbc:
+    url: "r2dbc:h2:mem:///accountdb;DB_CLOSE_DELAY=-1"
